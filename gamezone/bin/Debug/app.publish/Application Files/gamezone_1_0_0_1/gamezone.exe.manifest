@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="gamezone.exe" version="1.0.0.1" publicKeyToken="c949e8d36da14a09" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="gamezone" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="gamezone.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="gamezone.exe" size="2951168">
+      <assemblyIdentity name="gamezone" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9Ax/62XF2COE1SHkB9eR1nSc+3l4EMolvHWZh233qNo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="gamezone.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-33RK5Q6\Mitul" issuerKeyHash="238be722a900bdfbc067be56840042ccea68ed06" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5cBvUXQLGn4bO3fXhBh8B/deyfcoDHX2YzPvt0tdFRU=</DigestValue></Reference></SignedInfo><SignatureValue>gHv4la0ZPnTNRkOJu3a4dUWotW95n4gY3Yc578wer4rRpEixBPwllRdgm4rdo0whXN2SaNGMAYG8fTbGHnECIeQ6BpDIJg9sXlox5Rl1LxBh/x+RVWWKKobnHYJxOnPs0ZOE8WbJA72MGJTyTS++cZnDTni+wjmtikHoJksBmS4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2e5PnAYJXQoSNO7l7L12Ws9a0E1h6Ao+ZFubOl2pLZ9w7lu51lgfF42aXO6LxlwbJ7F0OtXXw9myNZ2eckCe2tTCLJ845IfSVgfO7xoHFrcgMeMc9MlI5jhyVUdqffo6/IKz7Un8rAwEmA2sYQwmgq+2rGVLN1YdEXUp5gnb6+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="15155d4bb7ef3363f6750c28f7c95ef7077c1884d7773b1b7e1a0b74516fc0e5" Description="" Url=""><as:assemblyIdentity name="gamezone.exe" version="1.0.0.1" publicKeyToken="c949e8d36da14a09" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-33RK5Q6\Mitul</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RFrL+uXSVi3c36KUMChHRag1DZfxru92eKP2QE65iYE=</DigestValue></Reference></SignedInfo><SignatureValue>jiAnSQZl0/473UjG2YSMTrRKGmNtE8qdsA6t56hNW1G3ZiLhUwNXsjNZBnsTTCZfyYdINvYzjxtS4nYufYVU/Y/LROg14ObQYzpqiAqyKeRd55lZDdpI2mdC5fSs+9bqQmSzOEVINjLEZpheE9sLgUYWshpTlRvybuYFKzBdUYM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2e5PnAYJXQoSNO7l7L12Ws9a0E1h6Ao+ZFubOl2pLZ9w7lu51lgfF42aXO6LxlwbJ7F0OtXXw9myNZ2eckCe2tTCLJ845IfSVgfO7xoHFrcgMeMc9MlI5jhyVUdqffo6/IKz7Un8rAwEmA2sYQwmgq+2rGVLN1YdEXUp5gnb6+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFmaN8xnN8ZtMCX2eQ2NmdjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMAMwBSAEsANQBRADYAXABNAGkAdAB1AGwwHhcNMTgwNTAxMTA0MjU4WhcNMTkwNTAxMTY0MjU4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMAMwBSAEsANQBRADYAXABNAGkAdAB1AGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANnuT5wGCV0KEjTu5ey9dlrPWtBNYegKPmRbmzpdqS2fcO5budZYHxeNmlzui8ZcGyexdDrV18PZsjWdnnJAntrUwiyfOOSH0lYHzu8aBxa3IDHjHPTJSOY4clVHan36OvyCs+1J/KwMBJgNrGEMJoKvtqxlSzdWHRF1KeYJ2+vtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA02T52lSA+rVaugd25B0BbfLOfd+meIQ2WfCx/bUWdK1YcV7z5Hk3LlbyXFbAtw6jmLo4pZKpxdBW6wCXnAqevso98BTJbBtLGvkJo+6737P39Lw/eAk5N95ZxG5VnZmY7pASOJ+HbNk1xtFRBLMTCjNemogNDz5m0EHqgocTih4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
